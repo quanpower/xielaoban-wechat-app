@@ -250,7 +250,6 @@ Page({
     this.setData({
       searchInput: e.detail.value
     })
-
   },
   toSearch : function (){
     this.getGoodsList(this.data.activeCategoryId);
