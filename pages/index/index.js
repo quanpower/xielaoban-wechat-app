@@ -54,7 +54,7 @@ Page({
   },
   scroll: function (e) {
     //  console.log(e) ;
-    var that = this,scrollTop=that.data.scrollTop;
+    var that = this, scrollTop=that.data.scrollTop;
     that.setData({
       scrollTop:e.detail.scrollTop
     })
